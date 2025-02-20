@@ -4,4 +4,7 @@
   --color-blue: #6f9de2;
   --color-purple: #9871f3;
   --color-danger: #f05d6c;
+
+  --font-heading: var(--font-oxanium);
+  --font-sans: var(--font-montserrat);
 }

@@ -1,7 +1,13 @@
+import { Button } from "./components/button";
+import { ArrowRight } from "lucide-react";
+
 export default function Home() {
   return (
     <main>
-      <div className="text-3xl text-red-500">Hello world!</div>
+      <Button>
+        Enviar
+        <ArrowRight className="w-6 h-6" />
+      </Button>
     </main>
   );
 }
