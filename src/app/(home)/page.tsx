@@ -1,8 +1,9 @@
 import Image from "next/image";
-import logo from "../../public/Logo.svg";
-import { InputField, InputIcon, InputRoot } from "./components/input";
 import { ArrowRight, Mail, Radio, User } from "lucide-react";
-import { Button } from "./components/button";
+import { InputField, InputIcon, InputRoot } from "../components/input";
+import { Button } from "../components/button";
+
+import logo from "../../../public/Logo.svg";
 
 export default function Home() {
   return (
