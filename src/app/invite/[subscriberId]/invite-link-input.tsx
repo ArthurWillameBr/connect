@@ -1,8 +1,8 @@
 "use client";
 
+import { IconButton } from "@/app/components/icon-button";
+import { InputField, InputIcon, InputRoot } from "@/app/components/input";
 import { Copy, Link } from "lucide-react";
-import { IconButton } from "../components/icon-button";
-import { InputField, InputIcon, InputRoot } from "../components/input";
 
 interface InviteLinkInputProps {
   inviteLink: string;
